@@ -4,20 +4,20 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Gêneros</title>
+        <title>Plataforma</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">
-        <h1>Gêneros</h1>
-            <a href="/genero/insert" class="btn btn-primary">Novo Gênero</a>
+        <h1>Plataforma</h1>
+            <a href="/genero/insert" class="btn btn-primary">Novo Plataforma</a>
             <table class="table">
                 <tr>
                     <th>Id</th>
                     <th>Nome</th>
                     <th>&nbsp;</th>
                 </tr>
-                <c:forEach var="item" items="${generos}">
+                <c:forEach var="item" items="${plataforma}">
                     <tr>
                         <td>${item.id}</td>
                         <td>${item.nome}</td>
